@@ -27,12 +27,10 @@ const NavBar = () => {
       <div className="flex flex-row justify-between items-center py-2">
         <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
           <HashLink smooth to="/#hero">
-            <h1 className="font-extrabold text-4xl text-blue-900">
+            <h1 className="flex lg:justify-end w-full lg:w-1/2">
               <img
-                width={100}
-                height={100}
-                alt="card img"
-                className="rounded-t float-right duration-1000 w-full"
+                alt="KSD"
+                className="rounded-t float-right duration-1000  h-16 w-32"
                 src={logoImg}
               />
             </h1>
