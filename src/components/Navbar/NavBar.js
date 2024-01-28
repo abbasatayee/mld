@@ -29,6 +29,8 @@ const NavBar = () => {
           <HashLink smooth to="/#hero">
             <h1 className="font-extrabold text-4xl text-blue-900">
               <img
+                width={100}
+                height={100}
                 alt="card img"
                 className="rounded-t float-right duration-1000 w-full"
                 src={logoImg}
